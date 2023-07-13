@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+}
+table{
+   width: 100%;
+   /* border-collapse: collapse; */
+}
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 480px) {
+
+body{
+    font-size: 15px;
+}
+table{
+    border-collapse: collapse;
+    overflow-x: auto;
+   
+}
+td,th{
+    padding: 10px;
+}
+
+}

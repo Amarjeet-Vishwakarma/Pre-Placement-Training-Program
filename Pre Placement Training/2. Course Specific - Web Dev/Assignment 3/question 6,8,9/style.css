@@ -1,0 +1,291 @@
+/* css reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* body design */
+body{
+    background-color: #ffffff;
+}
+
+/* navbar design */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px ;
+}
+/* nav logo design */
+nav img{
+   width: 70px; 
+}
+
+/* nav menu option design */
+nav ul{
+    display: flex;
+    align-items: center; 
+    margin-left: 200px;
+    margin-right: 35px;
+    gap: 10px;
+   
+}
+nav ul li {    
+    list-style: none;
+  
+   
+}
+nav ul li a{
+    text-decoration: none;   
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+/* nav button design */
+nav button{
+    background-color: #1c7eff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.menu_icon{
+    display:none;
+}
+
+/* main section design */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin: 75px;  
+}
+/* mian left section design */
+.sayHi{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oneCardName{
+    font-size: 70px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c7eff;
+}
+.cardIssuers{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c7eff;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.left-main-section img{
+  width: 350px;
+  margin: 20px 0;
+}
+.left-main-section button{
+    border: none;
+    background: transparent;
+    
+}
+.left-main-section button img{
+    width: 250px;
+}
+.Description{
+    width: 500px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main right section design */
+video{
+    width: 500px;
+      
+}
+
+/* fees and charge section design */
+
+.fees-section{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+   font-size: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 100px 0;
+}
+.fees-section-1-p{
+    font-size: 60px;
+    font-weight: 600;  
+    background: linear-gradient(to right, #3300ffcf 0%, #09e73a9a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; 
+    margin-bottom: 100px;   
+}
+
+/* footer design */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 50px 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .oneCard_info h2{
+    margin-bottom: 30px;
+  }
+.oneCard_info p{
+    line-height: 40px;
+}
+footer p{
+    width: 300px;
+    color: grey;
+}
+ul h2{
+    margin-bottom: 10px;
+}
+ul li{
+    list-style: none;
+    color: grey;
+    padding: 15px;  
+    
+}
+.Newsletter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.Newsletter h2{
+    margin-bottom: 20px;
+}
+#email{
+    height: 15px;
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.Newsletter button{
+    padding: 20px;
+    border-radius: 8px; 
+    background-color: #1c7eff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* Media query */
+
+
+
+@media only screen and (max-width: 480px) {
+    /* STYLES HERE */
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 50px
+       
+    }
+    nav ul{
+        display: none;
+    }
+    nav button{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+        height: 40px;
+       
+      
+    }
+   
+    /* main section design */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+/* mian left section design */
+.sayHi{
+    font-size: 20px;
+    font-weight: 600;
+}
+.oneCardName{
+    font-size: 45px;
+    font-weight: 600;   
+}
+.cardIssuers{
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+.left-main-section img{
+  width: 250px;
+  margin: 20px 0;
+}
+.left-main-section button img{
+    width: 200px;
+}
+.Description{
+    width: 350px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* main right section design */
+video{
+    width: 300px;
+    margin-top: 50px;  
+}
+
+/* fees and charge section design */
+
+.fees-section{
+    font-size: 20px;
+    padding: 100px 0px;
+    background-color: #ffffff;
+    color: #000000;
+ }
+ .fees-section-1-p{
+     font-size: 30px; 
+ }
+
+/* footer design */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .oneCard_info h2{
+    margin-bottom: 30px;
+  }
+.oneCard_info p{
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+}
+
